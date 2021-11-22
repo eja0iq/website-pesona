@@ -1,0 +1,182 @@
+/* tempat terbaik pesona jawa / top places to travel */
+
+/* top places to travel */
+.top_place .single_place {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 10px;
+}
+
+.top_place .single_place:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0c3e72;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.top_place .single_place .hover_Text {
+  padding: 20px;
+  position: absolute;
+  bottom: -15px;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 991px) {
+  .top_place .single_place .hover_Text {
+    padding: 20px;
+  }
+}
+
+.top_place .single_place .hover_Text h3 {
+  font-size:25px;
+  line-height: 25px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .top_place .single_place .hover_Text h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+.top_place .single_place .hover_Text p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.top_place .single_place .hover_Text .place_review {
+  margin-top: 15px;
+}
+
+.top_place .single_place .hover_Text .place_review a {
+  color: #fe5c24;
+}
+
+.top_place .single_place .hover_Text .place_review span {
+  color: #fff;
+}
+
+.top_place .single_place .details_icon {
+  float: right;
+}
+
+.top_place .single_place .details_icon i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff !important;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.top_place .single_place .details_icon:hover i {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 25px;
+  background-color: #e74c3c;
+}
+
+
+
+
+.top_place .single_place:hover .hover_Text {
+  opacity: 0.9;
+  visibility: visible;
+  bottom: 0;
+}
+
+.top_place .single_place:hover:after {
+  opacity: .75;
+}
+
+.top_place .tombol {
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.top_place .tombol:hover {
+  padding: 13px;
+}
+
+.top_place a:hover {
+  font-size:16px;
+  color: #f1f2f6;
+}
+
+
+
+/* sidebar left categories */
+
+.section_padding_50 {
+	padding-right: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.section_padding_60 {
+	margin-top: 60px;
+}
+
+.categories h2 {
+	color: #079992;
+	margin-bottom: 25px;
+}
+.categories li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+  list-style: none; }
+  .categories li:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-bottom: 0; }
+  .categories li a {
+    display: block;
+    color: #778ca3;
+	font-size: 14px;}
+  .categories li a:hover {
+    color: #1dd1a1;
+	font-size: 14px;}
+    .categories li a span {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: #1dd1a1; }
+  .categories li.active a {
+    color: #000000;
+    font-style: italic; }
+
+
+.pesona-recent-news	h4 {
+	color: #079992;
+}
+
+.pesona-recent-news	.title-post {
+	padding-bottom: 15px;
+}
+
+.pesona-recent-news	.title-post a:hover {
+	color: #38ada9;
+}
+

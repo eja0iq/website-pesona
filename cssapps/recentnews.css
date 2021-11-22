@@ -1,0 +1,72 @@
+/** recent tourism news */
+
+.mb-50 {
+	margin-top: 50px;
+}
+
+.mb-25 {
+	margin-top: 25px;
+}
+
+.single-touristattraction-post {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 20px; }
+  .single-touristattraction-post:last-child {
+    margin-bottom: 0; }
+  .single-touristattraction-post .post-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 110px;
+    flex: 0 0 115px;
+    max-width: 115px;
+    width: 115px;
+    margin-right: 15px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-touristattraction-post .post-thumb {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 80px;
+        flex: 0 0 80px;
+        max-width: 80px;
+        width: 80px; } }
+    .single-touristattraction-post .post-thumb img {
+      border-radius: 5px; }
+	  
+	.single-touristattraction-post .post-content {
+		margin-top: -10px;
+	}
+  
+  .single-touristattraction-post .post-content .post-title {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-touristattraction-post .post-content .post-title {
+        font-size: 12px; } }
+    .single-touristattraction-post .post-content .post-title:hover, .single-touristattraction-post .post-content .post-title:focus {
+      color: #1cc3b2; }
+  .single-touristattraction-post .post-content .post-meta {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5px; }
+    .single-touristattraction-post .post-content .post-meta a {
+      position: relative;
+      z-index: 1;
+      font-size: 9px;
+      color: #C2185B;
+      display: inline-block;
+      margin-right: 30px;
+      letter-spacing: 1px;
+      }
+      .single-touristattraction-post .post-content .post-meta a:last-child {
+        margin-right: 0; }
+        .single-touristattraction-post .post-content .post-meta a:last-child::before {
+/**          content: '/'; */
+          position: absolute;
+          top: 0;
+          left: -20px;
+          z-index: 1; }
+      .single-touristattraction-post .post-content .post-meta a:hover, .single-touristattraction-post .post-content .post-meta a:focus {
+        color: #000000;
+		font-size: 9px;
+		}
+	
